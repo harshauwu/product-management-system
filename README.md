@@ -25,7 +25,7 @@ Key Goals:
 The system follows a microservices architecture with a combination of RESTful APIs and event-driven messaging.  
 
 ### High-Level Diagram  
-![Architecture Diagram](path/to/diagram.png)  
+![Architecture Diagram](diagram/Product-Managment-1.png)  
 
 ### Components:  
 - **API Gateway** – Exposes RESTful APIs to users and forwards requests to microservices.  
