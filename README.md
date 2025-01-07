@@ -86,6 +86,9 @@ Ensure you have the following installed on your machine:
    [http://localhost:4003/product-service/v1/api-docs](http://localhost:4003/product-service/v1/api-docs)
 
    You should see the Swagger API documentation for the Product Management System.
+   
+   ![Swagger Document](diagram/swagger-doc.png)  
+
 
 
 
@@ -107,8 +110,6 @@ Ensure you have the following installed on your machine:
 ## API Endpoints  
 
 The following RESTful endpoints are available for managing products in the Product Management System.  
-
-![Swagger Document](diagram/swagger-doc.png)  
 
 ### Base URL:  
 `http://localhost:4003/product-service/v1`  
