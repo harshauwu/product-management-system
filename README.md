@@ -108,6 +108,8 @@ Ensure you have the following installed on your machine:
 
 The following RESTful endpoints are available for managing products in the Product Management System.  
 
+![Swagger Document](diagram/swagger-doc.png)  
+
 ### Base URL:  
 `http://localhost:4003/product-service/v1`  
 
