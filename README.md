@@ -48,15 +48,45 @@ The system follows a microservices architecture with a combination of RESTful AP
 Follow the instructions below to set up the project locally.  
 
 ### Prerequisites  
-- Node.js >= 18  
-- Docker  
-- AWS CLI configured  
+Ensure you have the following installed on your machine:  
+- **Node.js** (>= 18)  
+- **Docker**  
+- **AWS CLI** (configured)  
+- **MongoDB** (local or cloud instance)  
 
 ### Installation  
 1. Clone the repository:  
    ```bash
    git clone https://github.com/username/product-management.git
    cd product-management
+   ```
+
+2. Configure Environment Variables:  
+   Copy the example environment file and configure it:
+   ```bash
+   cp .env.example .env
+   nano .env
+   ```
+
+3. Start the Product Service (Development Mode):  
+   Use the build-dev.sh script to build and run the product service.
+
+   If the script is not executable, make it executable first:
+   ```bash
+   chmod +x build-dev.sh
+   ```
+
+   Then, start the product service:
+   ```bash
+   ./build-dev.sh
+   ```
+
+4. Verify the Service:  
+   Once the service is running, visit:
+   [http://localhost:4003/product-service/v1/api-docs](http://localhost:4003/product-service/v1/api-docs)
+
+   You should see the Swagger API documentation for the Product Management System.
+
 
 
 ## Microservices Overview  
